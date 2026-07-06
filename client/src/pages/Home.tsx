@@ -67,19 +67,19 @@ function BeforeAfterSlider() {
       onTouchMove={handleTouchMove}
     >
       {/* After (clean) — full width base */}
-      <img
-        src="/manus-storage/after_car_bb0c2a52.jpg"
-        alt="Car after SparkClean detailing — spotless and gleaming"
-        className="absolute inset-0 w-full h-full object-cover pointer-events-none"
-        draggable={false}
-      />
+        <img
+          src="/manus-storage/after_car_matching_a6560209.jpg"
+          alt="Car after SparkClean detailing — spotless and gleaming"
+          className="absolute inset-0 w-full h-full object-cover pointer-events-none"
+          draggable={false}
+        />
       {/* Before (dirty) — clipped to left side */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
       >
         <img
-          src="/manus-storage/before_car_d21c8613.jpg"
+          src="/manus-storage/before_car_matching_e384ab08.jpg"
           alt="Car before SparkClean detailing — dirty and dull"
           className="absolute inset-0 w-full h-full object-cover"
           draggable={false}
