@@ -68,7 +68,7 @@ function BeforeAfterSlider() {
     >
       {/* After (clean) — full width base */}
         <img
-          src="/manus-storage/after_car_matching_a6560209.jpg"
+          src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663816822929/eqeaftjvQgQLixZL.jpg"
           alt="Car after SparkClean detailing — spotless and gleaming"
           className="absolute inset-0 w-full h-full object-cover pointer-events-none"
           draggable={false}
@@ -79,7 +79,7 @@ function BeforeAfterSlider() {
         style={{ clipPath: `inset(0 ${100 - position}% 0 0)` }}
       >
         <img
-          src="/manus-storage/before_car_matching_e384ab08.jpg"
+          src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663816822929/OwGcIjxdkFKKUggg.jpg"
           alt="Car before SparkClean detailing — dirty and dull"
           className="absolute inset-0 w-full h-full object-cover"
           draggable={false}
@@ -236,7 +236,7 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="/manus-storage/hero_car_230c8c3b.jpg"
+            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663816822929/qYhEaqlbHYVCSDAw.jpg"
             alt="Luxury car on Hong Kong street"
             className="w-full h-full object-cover"
           />
